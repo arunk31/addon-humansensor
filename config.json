@@ -4,7 +4,8 @@
   "slug": "human_sensor_image",
   "description": "Human Sensor: Sensing human",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "startup": "before",
+  "startup": "application",
+  "image": "arun9500/humansensor-addon",
   "boot": "auto",
   "ports": {
     "8000/tcp": 8000
